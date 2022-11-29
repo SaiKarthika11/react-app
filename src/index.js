@@ -1,13 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.css';
+import '../node_modules/bootstrap-icons/font/bootstrap-icons.css';
+import { BrowserRouter,Routes,Route,Link,} from "react-router-dom";
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import Indexapp from './components/indexapp';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Indexapp/>
   </React.StrictMode>
 );
 
