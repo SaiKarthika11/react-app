@@ -1,6 +1,6 @@
 
 import { Doughnut } from "react-chartjs-2";
-export const Doughnut = ({ chartData }) => {
+export const DoughnutChart = ({ chartData }) => {
   return (
     <div className="chart-container">
       <h2 style={{ textAlign: "center" }}>Doughnut Chart</h2>
@@ -21,3 +21,4 @@ export const Doughnut = ({ chartData }) => {
     </div>
   );
 };
+export default DoughnutChart;

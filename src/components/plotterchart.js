@@ -1,7 +1,7 @@
 
 import { Plotter } from "react-chartjs-2";
 
-export const Plotter = ({ chartData }) => {
+export const PlotterChart = ({ chartData }) => {
   return (
     <div className="chart-container">
       <h2 style={{ textAlign: "center" }}>plotter Chart</h2>
@@ -22,3 +22,4 @@ export const Plotter = ({ chartData }) => {
     </div>
   );
 };
+export default PlotterChart;

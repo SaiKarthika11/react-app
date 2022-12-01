@@ -5,7 +5,9 @@ import { Products } from './products';
 import Login from './login';
 import Home from './home';
 import Register from './register';
-import chart from './chart';
+import Chart from './chart';
+import Pie from "../components/piechart";
+
 export default function Indexapp()
 {
     return(
@@ -38,7 +40,9 @@ export default function Indexapp()
                         <Route path="dashboard"  element={<Dashboard />}  />
                         <Route path="products/:category" element={<Products />} />
                         <Route path="details/:id" element={<Productdetails />} />
-                        <Route path="chart" element={<chart/>} />
+                        <Route path="chart" element={<Chart/>} />
+                        <Route path="piechart" element={<Pie/>} />
+                        
                         <Route path="errorpage" element={
                             <div>
                                 <h2 className="text-danger">Invalid Credentials</h2>

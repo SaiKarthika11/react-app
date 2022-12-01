@@ -1,6 +1,6 @@
 
 import { PolarArea } from "react-chartjs-2";
-export const PolarArea = ({ chartData }) => {
+export const PolarAreaChart = ({ chartData }) => {
   return (
     <div className="chart-container">
       <h2 style={{ textAlign: "center" }}>Polararea Chart</h2>
@@ -21,3 +21,4 @@ export const PolarArea = ({ chartData }) => {
     </div>
   );
 };
+export default PolarAreaChart;

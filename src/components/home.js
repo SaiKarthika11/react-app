@@ -7,9 +7,9 @@ export default function Home()
             <h2> Home</h2>
             <Link to="/dashboard"> Dashboard</Link>
             <span> | </span>
-            <Link to="/login">Existing User</Link>
-            <span> | </span>
-            <Link to="/charts">Charts</Link>
+            {/*<Link to="/login">Existing User</Link>
+            <span> | </span>*/}
+            <Link to="/chart">Charts</Link>
         </div>
     )
 }

@@ -1,6 +1,6 @@
 
 import { Column } from "react-chartjs-2";
-export const Column = ({ chartData }) => {
+export const ColumnChart = ({ chartData }) => {
   return (
     <div className="chart-container">
       <h2 style={{ textAlign: "center" }}>column Chart</h2>
@@ -21,3 +21,4 @@ export const Column = ({ chartData }) => {
     </div>
   );
 };
+export default ColumnChart;
